@@ -5,7 +5,7 @@ export default function Navbar() {
     <div className="navbar">
       <div className="logo">
         <img src="logo.svg" alt="logo" />
-        <span>React Admin</span>
+        <span>opadmin</span>
       </div>
       <div className="icons">
         <img src="/search.svg" alt="icon" className='icon'/>
