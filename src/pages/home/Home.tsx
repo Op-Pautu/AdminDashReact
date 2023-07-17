@@ -4,6 +4,7 @@ import './home.scss'
 import { barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from '../../data';
 import BarChartBox from './../../components/barChartBox/BarChartBox';
 import PieChartBox from '../../components/pieChartBox/PieChartBox';
+import BigChartBox from '../../components/bigChartBox/BigChartBox';
 export default function Home() {
   return (
     <div className="home">
@@ -13,7 +14,7 @@ export default function Home() {
       <div className="box box4"><PieChartBox/></div>
       <div className="box box5"><ChartBox {...chartBoxConversion}/></div>
       <div className="box box6"><ChartBox {...chartBoxRevenue}/></div>
-      <div className="box box7"></div>
+      <div className="box box7"><BigChartBox/></div>
       <div className="box box8"><BarChartBox {...barChartBoxVisit}/></div>
       <div className="box box9"><BarChartBox {...barChartBoxRevenue}/></div>
     </div>
