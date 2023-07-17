@@ -1,4 +1,4 @@
-import Add from '../../components/Add/Add';
+import Add from '../../components/add/Add';
 import DataTable from '../../components/dataTable/DataTable'
 import { userRows } from '../../data';
 import './users.scss'
